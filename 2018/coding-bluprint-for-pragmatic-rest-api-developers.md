@@ -1,20 +1,20 @@
-As per Wikipedia, Design thinking is the cognitive process from which design concepts (e.g. ideas for products) emerge. Design thinking is related to, but is different from problem-solving, decision-making, creativity, sketching and prototyping. During design thinking, the designer's attention oscillates between their understanding of a problem context and their ideas for a solution. New solution ideas lead to a deeper understanding of the problematic context, which in turn triggers more solution ideas.
+# Developers guide to designing REST endpoints
 
-When your focus acts like a pendulum between problem context and the creative solution then you are bound to wear multiple hats. The irony as the developer when designing API is that your clients are other developers.
-Over the past decade after working under some fine mentors the summary of the learning can be stated as “Think of developing API endpoints for a command line interface, possibly it will result in self-understandable, complete solution you are seeking”.
+As per Wikipedia, Design thinking is the cognitive process from which design concepts \(e.g. ideas for products\) emerge. Design thinking is related to, but is different from problem-solving, decision-making, creativity, sketching and prototyping. During design thinking, the designer's attention oscillates between their understanding of a problem context and their ideas for a solution. New solution ideas lead to a deeper understanding of the problematic context, which in turn triggers more solution ideas.
+
+When your focus acts like a pendulum between problem context and the creative solution then you are bound to wear multiple hats. The irony as the developer when designing API is that your clients are other developers. Over the past decade after working under some fine mentors the summary of the learning can be stated as “Think of developing API endpoints for a command line interface, possibly it will result in self-understandable, complete solution you are seeking”.
 
 This post is inspired by eBook published by APIgee highlighting the best practiced for REST design. As an API designer, I have gone through some challenges myself, viz.
 
 **What should be my base URL?**
 
-Keep it short and simple. Try to use nouns and keep verbs out of your base URL. To smartly cover all possible scenario use HTTP verb standard.
-Eg.
+Keep it short and simple. Try to use nouns and keep verbs out of your base URL. To smartly cover all possible scenario use HTTP verb standard. Eg.
 
-| Resource    |       POST        |    GET     |            PUT            |      DELETE      |
-| ----------- | :---------------: | :--------: | :-----------------------: | :--------------: |
-|             |      create       |    read    |          update           |      delete      |
-| /users      | create a new user | list users |     bulk update users     | delete all users |
-| /users/1234 |       error       | show user  | update if exists or error |   delete user    |
+| Resource | POST | GET | PUT | DELETE |
+| :--- | :---: | :---: | :---: | :---: |
+|  | create | read | update | delete |
+| /users | create a new user | list users | bulk update users | delete all users |
+| /users/1234 | error | show user | update if exists or error | delete user |
 
 The point is that developers probably don't need the chart to understand how the API behaves. They can experiment with and learn the API without the documentation.
 
@@ -33,7 +33,7 @@ The recommended practise is to follow ‘resource/identity/resource’ model eg.
 Make it simple for developers to use the base URL by putting optional states and attributes behind the query string question mark. E.g. GET /users?name=xxx  
 For pagination request for limit and offset eg. GET /users?limit=50&offset=100 additionally, request fields to make it precise. Avoid using special characters in the query string. A good API always have defaults for pagination.  
 Good example /GET users?fields=name,gender  
-Bad example /Get users:(name,gender)  
+Bad example /Get users:\(name,gender\)  
 We also suggest including metadata with each response that is paginated that indicated to the developer the total number of records available. Use JSON-LD/HAL/Collection+JSON/SIREN/JSONAPI.ORG specifications as your starting point and don’t forget to be creative.
 
 **What is the recommended practice for error handling?**
@@ -49,8 +49,7 @@ Some developers advocate as to keep the version information in headers. But API 
 
 **What about responses that don’t involve resources?**
 
-In certain cases, API calls that sends a response which is not a resource e.g. Calculate, Translate are not uncommon depending on the domain.
-In these cases, Use verbs not nouns e.g. /convert?from=USD&to=AUD&amount=100  
+In certain cases, API calls that sends a response which is not a resource e.g. Calculate, Translate are not uncommon depending on the domain. In these cases, Use verbs not nouns e.g. /convert?from=USD&to=AUD&amount=100  
 Make it clear in your API documentation that these “non-resource” scenarios are different, maybe in you swagger docs.
 
 **How many formats shall we support?**
@@ -61,18 +60,14 @@ If the default form is JSON, in the response properties try using camelCase for 
 **Any other tips and tricks?**
 
 _Tip1:_  
-A simple can be verb based resourceful API but for complex scenarios use google model
-e.g.  
+A simple can be verb based resourceful API but for complex scenarios use google model e.g.  
 /search?q=xxx  
 /user?q=xxx  
 /location/1234/user=xxx – scoped  
 /search.xml?q=xxx – formatted
 
 _Tip2:_  
-Consolidate API under a single domain with segregation for environments following a standard pattern e.g.
-api.xxx.com
-uat-api.xxx.com
-dev-api.xxx.com
+Consolidate API under a single domain with segregation for environments following a standard pattern e.g. api.xxx.com uat-api.xxx.com dev-api.xxx.com
 
 _Tip3:_  
 Use standard known authentication/authorization methodologies e.g. oAuth2.0 etc
@@ -86,3 +81,4 @@ Using POST to emulate PUT, DELETE, PATCH. If your development platform or firewa
 **What API design pattern is an ideal choice in most cases?**
 
 The architect must carefully evaluate available options and what suits the business domain and skill set of available developers in terms of project support and maintainability. But in most cases, an API Façade with mediate to complement can cover the majority of cases. This is covered in detail in another post.
+
