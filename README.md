@@ -2,7 +2,7 @@
 description: learning adventures
 ---
 
-# PAUL BLOG
+# thoughts, stories & ideas.
 
 ![](.gitbook/assets/me.jpg)
 
