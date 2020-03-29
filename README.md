@@ -2,7 +2,7 @@
 description: learning adventures
 ---
 
-# Thoughts, stories & ideas.
+# thoughts, stories & ideas.
 
 ![](.gitbook/assets/me.jpg)
 
