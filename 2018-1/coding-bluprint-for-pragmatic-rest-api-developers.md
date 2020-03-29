@@ -92,3 +92,5 @@ Using POST to emulate PUT, DELETE, PATCH. If your development platform or firewa
 
 The architect must carefully evaluate available options and what suits the business domain and skill set of available developers in terms of project support and maintainability. But in most cases, an API Façade with mediate to complement can cover the majority of cases. This is covered in detail in another post.
 
+\#api \#design \#design-patterns
+
