@@ -4,7 +4,7 @@
 
 ## 2019
 
-* [Demo](2019/demo.md)
+* [Phoenix/Elixir - concurrency actor model with 'let it crash' philosophy](2019/elixir-concurrency-models.md)
 
 ## 2018 <a id="2018-1"></a>
 
