@@ -20,23 +20,17 @@ _Practicing_ - Xamarin, Elixir, Machine Learning / AI, Python, F\#, Kubernetes, 
 
 #### Certifications
 
-Microsoft
+_Microsoft_ - Azure Certified Solution Architect - Azure 532, 533, 534
 
-> Azure Certified Solution Architect - Azure 532, 533, 534
+_Sitecore_ - Sitecore® XP 8 Website Development for .NET Developers Certification
 
-Sitecore
+_Amazon_ - AWS Certified Solution Architect - Professional
 
-> Sitecore® XP 8 Website Development for .NET Developers Certification
-
-Amazon
-
-> AWS Certified Solution Architect - Professional
-
-Online Self Certification - Lynda, Udemy etc
-
-> Hadoop, Swift, MSBI, F\#
+_Online Self Certification - Lynda, Udemy etc_ - Hadoop, Swift, MSBI, F\#
 
 #### Work
+
+[Mar 2017 - Current](https://www.4mation.com.au)
 
 _Solution Architect/Head Of Engineering_ \| [4mation Technologies](https://4mation.com.au) \| Sydney, \(AU\) NSW
 
@@ -51,6 +45,69 @@ A full-service digital marketing agency.
 * Represent the organization in customer-facing communication pertinent to the company’s technical expertise on the software platform including RFP's
 * Participate in architecture, design/code review for projects that require complex technical solutions. Key stakeholder in hiring panel and conducting corporate technical training
 * Develop process and promote architectural best practices for package implementations \(including but not limited to Sitefinity, Umbraco, Sitecore\), perform the gap analysis between business requirements and the package features, then design the configuration, customizations, extensions, interfaces needed to meet the requirements
+
+[Mar 2016 - Mar 2017 \| 1 yr 1 mo](https://swissworx.com/)
+
+_Senior Developer_ \| [Swissworx Pty Ltd](https://swissworx.com/) \| Sydney, \(AU\) NSW
+
+.NET, Enterprise Library / ServiceStack, Entity Framework, Javascript, Azure, Sitecore, Angular, Node, Data warehouse, Typescript
+
+Sitecore software consultancy.
+
+* Customization and implementation of responsive Sitecore e-commerce portal
+* SCROM implementation over Entity framework and web API
+* Diagnose and solve technical problems related to .NET applications, SQL databases, Web API, and a range of integrated systems.
+* Analysis and implementation of middle-tier API/API solution that integrates with various enterprise systems such as Siebel, Data warehouse
+* Deployment and maintenance of Sitecore in the Azure platform
+
+[Feb 2014 - Feb 2016 \| 2 yrs 1 mo](https://www.publicissapient.com)
+
+_Senior Associate_ \| [Publicis Sapient](https://www.publicissapient.com/) \| Gurgaon, \(IND\) Haryana
+
+.NET/C\#/WCF, Openlink Solarc, T-SQL/MS SQL Server
+
+Digital business transformation company.
+
+* Play a Techno-functional role by understanding business requirements and validate with proof of concepts
+* Requirements gathering & elicitation \(including both functional and non-functional\) through the facilitation of workshops, interviews and meetings at levels up to and including Senior Management
+* Conduct training sessions for packages, products and best practices
+* Work as a Subject Matter Expert \(SME\) from business and solution standpoint which involves reviewing project architecture, design documents, providing best practices and standards
+* Technical reviews, strategy and helping the team in day to day technical or functional issues
+
+[Oct 2012 - Feb 2014 \| 1 yr 5 mos](https://www.cpaglobal.com/)
+
+Senior Software Engineer \| [CPA Global](https://www.cpaglobal.com/) \| Noida, \(IND\) NCR
+
+.NET/C\#/WCF, Adobe/Flex, Action Script, RIA, Open Access ORM, PL-SQL
+
+Intellectual property management and technology company.
+
+* Diagnose & research solutions through technical expertise & problem solving-abilities
+* Mentor new hires and help them with critical customer problems
+* To conceptualize/implement an end-to-end professional solution for a given business problem
+
+[Dec 2009 - Oct 2012 \| 2 yrs 11 mos](https://www.publicissapient.com/)
+
+Senior Associate Technology \| [Publicis Sapient](https://www.publicissapient.com/) \| Gurgaon, \(IND\) Haryana
+
+SSIS/SSRS, T-SQL/MS SQL Server, .NET/C\#, Javascript/Jquery, SOA/Web Services, Data warehouse, Star/SnowFlake Schema
+
+Digital business transformation company.
+
+* Finalizing technical standards and providing technical guidance to the team
+* Design, code, unit test and document application as per Client requirements
+* SSIS Package / SQL Scripts Development for data migration and custom reports/RDL development in SSRS
+
+[Jun 2008 - Nov 2009 \| 1 yr 6 mos](https://www.ivp.in/)
+
+Software Engineer \| [Indus Valley Partners](https://www.ivp.in/) \| Delhi, \(IND\) Delhi
+
+.NET/C\#, Javascript/Jquery, XML/XSLT, HTML/CSS, T-SQL/MS SQL Server
+
+FinTech company with a vision for reshaping the operating model of the global asset management industry.
+
+* Design and implementation of various technical modules including reusable components by utilizing various standard frameworks
+* Writing and maintaining program code with the unit tests to meet business requirements, system design and technical specifications following accredited standards
 
 #### Education
 
