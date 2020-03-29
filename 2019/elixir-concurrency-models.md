@@ -10,7 +10,7 @@ Functional programming avoids the problems associated with a shared mutable stat
 
 Certainly, there are some concurrent programs that will always be non-deterministic. And this is unavoidable—some problems require solutions that are intrinsically dependent on the details of timing. But it’s not the case that all parallel programs are necessarily non-deterministic. The value of the sum of the numbers between 0 and 10,000 won’t change just because we add those numbers together in parallel instead of sequentially
 
-Microsoft [Orleans](https://dotnet.github.io/orleans/) is .net implementation of Actor Model but we will focus on programming language which was built with a focus on concurrent execution. Elixir/Erlang: Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability. Some of its uses are in telecoms, banking, e-commerce, computer telephony and instant messaging. Erlang's runtime system has built-in support for concurrency, distribution and fault tolerance. OTP is a set of Erlang libraries and design principles providing middle-ware to develop these systems. It includes its own distributed database, applications to interface towards other languages, debugging and release handling tools. Erlang runs on VM called BEAM which is essentially a [process virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
+Microsoft [Orleans](https://dotnet.github.io/orleans/)[process virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
 
 > In Erlang, and therefore Elixir, an actor is called a process. In most environments, a process is a heavyweight entity that consumes lots of resources and is expensive to create. An Elixir process, by contrast, is very lightweight—lighter weight even than most systems’ threads, both in terms of resource consumption and startup cost. Elixir programs typically create thousands of processes without problems and don’t normally need to resort to the equivalent of thread pools
 
@@ -171,9 +171,25 @@ Thus various processes can be started in parallel for different crypto compute e
 
 Since we are using spawn in our hash, We can also use spawn\_link method to link process instead of process.link\(\). Please note links created are bi directional. and calling abnormal exit on :hashItMD5 will also set :hashItSHA256 to nil
 
-`Process.info(:hashItMD5, :status)` nil `Process.info(:hashItSHA256, :status)` nil
+`Process.info(:hashItMD5, :status)` 
 
-but normal exit will keep the linked process active, viz: `:hashItMD5 |> exit(:normal)` `Process.info(:hashItMD5, :status)` nil `Process.info(:hashItSHA256, :status)` {:status, :waiting}
+nil 
+
+`Process.info(:hashItSHA256, :status)` 
+
+nil
+
+but normal exit will keep the linked process active, viz: 
+
+`:hashItMD5 |> exit(:normal)` 
+
+`Process.info(:hashItMD5, :status)` 
+
+nil 
+
+`Process.info(:hashItSHA256, :status)` 
+
+{:status, :waiting}
 
 This implies we can set the system trap to capture other processes exit, when can be utilized to create supervisor and restart the system if the process crashes. We can set Process.flag\(:trap\_exit, true\) to capture the exit of linked process and take appropriate action. In our example of HashIt, a supervisor can be created as:
 
@@ -215,7 +231,7 @@ end
 
 **Scaling to multiple nodes/computers**
 
-The actor programming naturally supports an approach to writing fault-tolerant code that leverages this observation: the error-kernel pattern. In the elixir system, the kernel is the root supervisor which can start other supervisors or workers. When we create an elixir virtual machine we create a node we can create nodes multiple nodes on the same system or on network of computer by naming them using --name or --sname option. To make multiple nodes part of the same cluster it must use same --cookie name argument. This results in running your system across multiple systems. To connect multiple nodes we can use connect function
+The actor progra is .net implementation of Actor Model but we will focus on programming language which was built with a focus on concurrent execution. Elixir/Erlang: Erlang is a programming language used to build massively scalable soft real-time systems with requirements on high availability. Some of its uses are in telecom, banking, e-commerce, computer telephony and instant messaging. Erlang's runtime system has built-in support for concurrency, distribution and fault tolerance. OTP is a set of Erlang libraries and design principles providing middle-ware to develop these systems. It includes its own distributed database, applications to interface towards other languages, debugging and release handling tools. Erlang runs on VM called BEAM which is essentially a mming naturally supports an approach to writing fault-tolerant code that leverages this observation: the error-kernel pattern. In the elixir system, the kernel is the root supervisor which can start other supervisors or workers. When we create an elixir virtual machine we create a node we can create nodes multiple nodes on the same system or on network of computer by naming them using --name or --sname option. To make multiple nodes part of the same cluster it must use same --cookie name argument. This results in running your system across multiple systems. To connect multiple nodes we can use connect function
 
 `iex(node1@192.168.0.10)1> Node.self`
 
