@@ -1,5 +1,5 @@
 ---
-description: coding blueprint for pragmatic rest api developers
+description: coding blueprint for pragmatic rest api developers | 2018-October-10
 ---
 
 # Developers guide to designing REST endpoints
