@@ -4,7 +4,7 @@ description: by bipin paul bedi
 
 # Thoughts, stories & ideas.
 
-<img src="https://s.gravatar.com/avatar/5eef42f8765c57a419e0f2901fde5013?s=80" style="float: right"/>I'm Bipin, a software developer, entrepreneur and open source contributor who's originally from New Delhi, India and currently living in the Sydney, Australia.
+<img src="https://s.gravatar.com/avatar/5eef42f8765c57a419e0f2901fde5013?s=80" style="float: right; margin: 1px 1px 1px 1px"/>I'm Bipin, a software developer, entrepreneur and open source contributor who's originally from New Delhi, India and currently living in the Sydney, Australia.
 
 **Posts**
 
