@@ -4,7 +4,7 @@ description: by bipin paul bedi
 
 # Thoughts, stories & ideas.
 
-<img src="https://s.gravatar.com/avatar/5eef42f8765c57a419e0f2901fde5013?s=80" style="float: right; margin: 5px 5px 5px 5px"/>I'm Bipin, a software developer, entrepreneur and open source contributor who's originally from New Delhi, India and currently living in the Sydney, Australia.
+I'm Bipin, a software developer, entrepreneur and open source contributor who's originally from New Delhi, India and currently living in the Sydney, Australia.
 
 **Posts**
 
@@ -16,7 +16,7 @@ description: by bipin paul bedi
 | [Architects black book for microservices implementation](2019/microservices-design-pattern.md) |  |
 | [Concurrent and/or parallel processing model](2019/elixir-concurrency-models.md) |  |
 
-#### **Talks**
+**Talks**
 
 _Wednesday, 10 May 2017_ \| [Angular - Web/Service Workers](https://www.meetup.com/en-AU/ng-sydney/events/239565060/) \| [Code](https://github.com/bipinpaulbedi/angular-meetup) \| [Slides](https://www.slideshare.net/BipinPaulBedi/implementing-web-workers-service-workers-in-angular)
 
