@@ -215,9 +215,23 @@ end
 
 **Scaling to multiple nodes/computers**
 
-The actor programming naturally supports an approach to writing fault-tolerant code that leverages this observation: the error-kernel pattern. In the elixir system, the kernel is the root supervisor which can start other supervisors or workers. When we create an elixir virtual machine we create a node we can create nodes multiple nodes on the same system or on network of computer by naming them using --name or --sname option. To make multiple nodes part of the same cluster it must use same --cookie name argument. This results in running your system across multiple systems. To multiple connect nodes we can use connect function
+The actor programming naturally supports an approach to writing fault-tolerant code that leverages this observation: the error-kernel pattern. In the elixir system, the kernel is the root supervisor which can start other supervisors or workers. When we create an elixir virtual machine we create a node we can create nodes multiple nodes on the same system or on network of computer by naming them using --name or --sname option. To make multiple nodes part of the same cluster it must use same --cookie name argument. This results in running your system across multiple systems. To connect multiple nodes we can use connect function
 
-`iex(node1@192.168.0.10)1> Node.self` :"node1@192.168.0.10" `iex(node1@192.168.0.10)2> Node.list` \[\] `iex(node1@192.168.0.10)3> Node.connect(:"node2@192.168.0.20")` true `iex(node1@192.168.0.10)4> Node.list` \[:"node2@192.168.0.20"\]
+`iex(node1@192.168.0.10)1> Node.self`
+
+:"node1@192.168.0.10"  
+
+`iex(node1@192.168.0.10)2> Node.list`
+
+\[\]
+
+`iex(node1@192.168.0.10)3> Node.connect(:"node2@192.168.0.20")` 
+
+true 
+
+`iex(node1@192.168.0.10)4> Node.list` 
+
+\[:"node2@192.168.0.20"\]
 
 Now use Node.Spwan to start worker or supervisors and use :global.register\_name\(\) instead of Process.register\(\) to make names cluster global.
 
