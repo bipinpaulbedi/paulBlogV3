@@ -30,3 +30,5 @@ _If a function name contains "and", then it is a code smell; violation of single
 e.g. CreateXAndManageY\(\) should be CreateX\(\) + ManageY\(\)  
 then function composition can be used to create a higher order domain functionality._
 
+_\#_functional-programming \#design-patterns \#technology \#clean-architecture
+
