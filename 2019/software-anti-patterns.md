@@ -82,3 +82,5 @@ We keep on adding ingredients to the curry and food is left with no taste. Let�
 
 Phew… don’t stop here, explore more on internet as there can be more pitfalls that you might be already digging. Please share your findings in the comments section below.
 
+\#microservices \#design-patterns \#technology \#anti-patterns
+
