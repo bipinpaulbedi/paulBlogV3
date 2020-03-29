@@ -4,6 +4,8 @@ description: by bipin paul bedi
 
 # Thoughts, stories & ideas.
 
+I'm Bipin, a software developer, entrepreneur and open source contributor who's originally from New Delhi, India and currently living in the Sydney, Australia.
+
 **Posts**
 
 | 2019 | 2018 |
