@@ -1,5 +1,5 @@
 ---
-description: learning adventures
+description: by bipin paul bedi
 ---
 
 # Thoughts, stories & ideas.
