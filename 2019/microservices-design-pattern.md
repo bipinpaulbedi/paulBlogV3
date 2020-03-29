@@ -76,9 +76,7 @@ Apart from strangler, an anti-corruption layer implements a facade between new a
 
 **Law of implementation patterns**
 
-![microservices](microservice2.png)
-
-Image Source : [Microsoft blog](https://azure.microsoft.com/en-au/blog/design-patterns-for-microservices/)
+![Image Source : Microsoft blog](../.gitbook/assets/microservice2.png)
 
 The eight core widely used microservices are that every architect shall know for high-performance systems includes
 
@@ -108,5 +106,5 @@ With the implementation of multiple microservices, traditional methods of monito
 * Monitor APIs.
 * Map your monitoring to your organisational structure.
 
-By practising the above laws an architect can create a robust solution, using microservices.
+By practicing the above laws an architect can create a robust solution, using microservices.
 
