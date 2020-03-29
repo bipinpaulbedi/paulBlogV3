@@ -111,7 +111,66 @@ FinTech company with a vision for reshaping the operating model of the global as
 
 #### Education
 
-#### Contact
+Post Graduate Diploma/MBA Finance \| Symbiosis Center For Distance Learning \| 2009 - 2011
+
+`Business Administration, Finance - Grade`**`:`** `66.02`
+
+Bachelors of Technology \| Computer Science Guru Gobind Singh Indraprastha University \| 2004 - 2008
+
+`Computer Science, Software Engineering, Information Technology - Grade`**`:`** `81.72`
+
+#### Projects
+
+Mar 2014 - Current \| Open Source - Github \| [https://github.com/bipinpaulbedi](https://github.com/bipinpaulbedi)
+
+Node/express, Angular, Big data / Azure HdInsight, Firebase, Ionic, Meteor.js, Mongo DB, React, Gatsby.js, GraphQL, Python
+
+* Open source experimental projects
+* Sample application demonstrated in meetups and conference by me
+* Sample application demonstrated using corporate training
+
+#### Volunteer
+
+Microsoft Student Partner \| Microsoft \| Jul 2007 - May 2008
+
+On-campus leaders with a passion for making a difference, building vibrant communities, and sharing the latest tech with their peers
+
+* Microsoft Imagine Cup 2008 - dancer/coordinator
+* Conference speaker - Tech evangelist
+
+#### Awards
+
+* Client Focused Delivery \(Sapient 2010\) 
+* Best Fresher of the year \(Indus Valley Partners 2008\)
+
+#### Publications
+
+* Blog.v7 \| www.bipinpaulbedi.com  \| 1 Jan 2018 Personal Blog 
+* The Lost Butterfly \| Kindle Direct Publishing \| 5 Sep 2013 \| Fiction Novel
+
+#### Languages
+
+* English - Native speaker
+* Hindi - Native speaker
+* Punjabi - Fluent
+
+#### Interests
+
+* Technology
+  * Startups
+  * FinTech
+  * Blogging
+  * Innovation
+* Books
+*  * Biographies
+  * Leadership
+  * Business
+  * Motivation
+  * Science and Technologies
+
+
+
+
 
 
 
