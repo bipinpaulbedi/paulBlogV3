@@ -31,15 +31,9 @@ The recommended practise is to follow ‘resource/identity/resource’ model eg.
 **How do we handle the complexity of pagination, partial response, filters etc.?**
 
 Make it simple for developers to use the base URL by putting optional states and attributes behind the query string question mark. E.g. GET /users?name=xxx  
-For pagination request for limit and offset eg. GET /users?limit=50&offset=100 additionally, request fields to make it precise. Avoid using special characters in the query string. A good API always have defaults for pagination.
-
-  
-`Good example /GET users?fields=name,gender`
-
-  
-`Bad example /Get users:(name,gender)`
-
-  
+For pagination request for limit and offset eg. GET /users?limit=50&offset=100 additionally, request fields to make it precise. Avoid using special characters in the query string. A good API always have defaults for pagination.  
+Good example /GET users?fields=name,gender  
+Bad example /Get users:\(name,gender\)  
 We also suggest including metadata with each response that is paginated that indicated to the developer the total number of records available. Use JSON-LD/HAL/Collection+JSON/SIREN/JSONAPI.ORG specifications as your starting point and don’t forget to be creative.
 
 **What is the recommended practice for error handling?**
