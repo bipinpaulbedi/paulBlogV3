@@ -4,7 +4,7 @@ description: architects black book for microservices implementation
 
 # 9 laws of architecting microservices
 
-![microservices](microservices.png)
+![](../.gitbook/assets/microservices.png)
 
 Microservice has been a game changer in software development in the last few years, yet it remains a grey area when it comes to making decision around maintainability and implementation of microservices. The evangelists behind microservice approach have built the case around speed, scalability and cohesion stating in that a microservice Change is easy, Units are small, scalability is semi-infinite. So what is Microservice architecture? Microservices — also known as the microservice architecture — is an architectural style that structures an application as a collection of loosely coupled services, which implement business capabilities.
 
