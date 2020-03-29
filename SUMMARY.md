@@ -4,6 +4,7 @@
 
 ## 2019
 
+* [clean architecture in functional programming](2019/clean-architecture-in-functional-programming.md)
 * [57 counterproductive software design practices - anti patterns.](2019/software-anti-patterns.md)
 * [9 laws of architecting microservices](2019/microservices-design-pattern.md)
 * [Phoenix/Elixir - concurrency actor model with 'let it crash' philosophy](2019/elixir-concurrency-models.md)
