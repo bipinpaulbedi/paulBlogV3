@@ -150,5 +150,5 @@ Iterators are lazy. They don't do anything until you collect or otherwise iterat
 _Side Note_  
 _The last lazy pattern that we will introduce is functional reactive programming, FRP for short. There are entire programming languages, such as Elm, based on this concept. Popular web UI frameworks, such as React or Angular, are also influenced by FRP concepts._ _The FRP concept is an extension of the side-effect/state monad example. Event handling, state transitions, and side-effects can be turned into units of reactive programming. This is an advance concept and shall be covered in a separate post later._
 
-If you have more functional knowledge to share, please scribe in the comments section below.
+\#functional-programming \#design-patterns \#technology
 
