@@ -4,7 +4,7 @@ description: BIPIN PAUL BEDI
 
 # Thoughts, stories & ideas.
 
-I'm Bipin😇, a software developer👨💻, entrepreneur💱and open source🐧contributor who's originally from New Delhi, India🇮🇳and currently living in the Sydney, Australia🇦🇺.I am available👋to hire for freelancing💼, open source🐧contributions or pro bono consulting🆘.If you are near Sydney & want to catch up a coffee☕and discuss an idea to make this world a better place, feel free to email📧or ring me up📞.
+I'm Bipin😇, a software developer👨💻, entrepreneur💱and open source🐧contributor who's originally from New Delhi, India🇮🇳and currently living in the Sydney, Australia🇦🇺.I am available👋to hire for freelancing💼, open source🐧contributions or pro bono consulting🆘.If you are near Sydney lets catch up for a coffee☕to discuss an idea and make this world a better place, feel free to email📧or ring me up📞.
 
 \*\*\*\*📬 **Posts**
 
