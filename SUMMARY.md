@@ -15,5 +15,5 @@
 * [Asymptotic computational complexity simplified](2018/asymtotic-notations.md)
 * [L1 & L2 model regularizations techniques](2018/regularization-for-machine-learning-models.md)
 * [Developers guide to designing REST endpoints](2018/coding-bluprint-for-pragmatic-rest-api-developers.md)
-* [Resume \| Bipin Paul Bedi](2018/resume.md)
+* [Resume \| Bipin Paul Bedi](resume.md)
 
