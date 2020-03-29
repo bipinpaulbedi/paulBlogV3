@@ -257,3 +257,5 @@ For this explanatory purpose, we used dynamic atom naming above. However, naming
 
 In practice, it is more likely you will reach the Erlang VM limit for the maximum number of atoms before you run out of memory, which will bring your system down regardless. Moreover, supervisor model used above can result in inconsistent naming convention across various modules and libraries. Thus elixir provides a standard protocol for defining, starting and maintaining workers using efficient bucketed methodology using [GenServer](https://elixir-lang.org/getting-started/mix-otp/genserver.html), providing standard call, cast and info method implementation for various operation.
 
+\#elixir \#phoenix \#actor-model \#design-patterns \#functional-programming \#technology
+
