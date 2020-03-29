@@ -16,7 +16,7 @@ description: by bipin paul bedi
 
 #### **Talks**
 
-**Wednesday, 10 May 2017** \| [Angular - Web/Service Workers](https://www.meetup.com/en-AU/ng-sydney/events/239565060/) \| [Code](https://github.com/bipinpaulbedi/angular-meetup) \| [Slides](https://www.slideshare.net/BipinPaulBedi/implementing-web-workers-service-workers-in-angular)
+_Wednesday, 10 May 2017_ \| [Angular - Web/Service Workers](https://www.meetup.com/en-AU/ng-sydney/events/239565060/) \| [Code](https://github.com/bipinpaulbedi/angular-meetup) \| [Slides](https://www.slideshare.net/BipinPaulBedi/implementing-web-workers-service-workers-in-angular)
 
 **Contact**
 
