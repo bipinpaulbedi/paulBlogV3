@@ -38,3 +38,5 @@ It adds “squared magnitude” of coefficient as penalty term to the loss funct
 
 The key difference between these techniques is that in L1 the less important feature’s coefficient are reduced to zero thus, removing some feature altogether. So, this works well for feature selection in case we have a huge number of features.
 
+\#regularization \#data-modelling \#feature-modelling \#machine-learning
+
