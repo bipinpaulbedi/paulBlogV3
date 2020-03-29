@@ -79,3 +79,5 @@ Thus f(n) = BIG-OMEGA(1) or BIG-OMEGA(K)
 since O and BIG-OMEGA for n! is not equal it does not have a tight bound
 ```
 
+\#biasing \#algorithm \#algorithm-design
+
