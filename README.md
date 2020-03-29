@@ -1,5 +1,5 @@
 ---
-description: by BIPIN PAUL BEDI
+description: BIPIN PAUL BEDI
 ---
 
 # Thoughts, stories & ideas.
