@@ -2,7 +2,7 @@
 description: a clean approach to modularising software projects
 ---
 
-# clean architecture in functional programming
+# Clean architecture in functional programming
 
 All the design principles and design patterns that we’ve identified over the last several decades apply only to OO; and that Functional Programming reduces them all down to: functions. Quoting from clean coders blog look at the comparison chart below;
 
