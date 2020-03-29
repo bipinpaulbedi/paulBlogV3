@@ -4,6 +4,7 @@
 
 ## 2019
 
+* [Functional design patterns using rust](2019/functional-design-patterns-using-rust.md)
 * [Clean architecture in functional programming](2019/clean-architecture-in-functional-programming.md)
 * [57 counterproductive software design practices - anti patterns.](2019/software-anti-patterns.md)
 * [9 laws of architecting microservices](2019/microservices-design-pattern.md)
