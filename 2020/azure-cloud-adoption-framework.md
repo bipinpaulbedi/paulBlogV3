@@ -1,5 +1,5 @@
 ---
-description: architect's checklist for transforming zero to cloud | 2020-March-30
+description: architect's checklist for transforming on-premises to cloud | 2020-March-30
 ---
 
 # Simplified azure cloud adoption framework
