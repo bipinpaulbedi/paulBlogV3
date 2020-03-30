@@ -95,12 +95,94 @@ The [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adop
   * [ ] [Review other best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/)
 * [ ] **Start Adoption** - Ensure proper implementation of desired changes, across IT and business processes, to achieve business outcomes.
   * [ ] **Start Migration** - Iterative execution of the [cloud implementation methodology](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/getting-started/migrate#cloud-implementation) adhering to the tested process of Assess, Migrate, Optimize, and Secure & Manage to create a repeatable process for migrating workloads.
-    * [ ] 
+    * [ ] Utilise Azure Migrate to confirm the migration suitability of on-premises assets, performance-based sizing and cost estimates for running on-premises assets in Azure
+    * [ ] Review incremental rationalisation by power of 10 methodology
+    * [ ] Review all 5R's
+    * [ ] Inform all stakeholders
+    * [ ] **Perform migration using \[TOOLS\]**
+      * [ ] Azure Migrate
+      * [ ] Azure Site Recovery
+      * [ ] Azure Database Migration Service
+      * [ ] Data Migration Assistant
+      * [ ] SQL Server Migration Assistant
+      * [ ] Database Experimentation Assistant
+      * [ ] Cosmos DB Data Migration Tool
+      * [ ] UnifyCloud
+      * [ ] Cloudamize
+      * [ ] Zerto
+      * [ ] Carbonite
+      * [ ] Movere
+      * [ ] Cosmos DB Partners
+      * [ ] Azure DevOps
+      * [ ] Microsoft Planner
+      * [ ] Microsoft Project
+      * [ ] Microsoft Team
+    * [ ] Monitor and Test
+    * [ ] Obtain assistance if required via Microsoft support
+    * [ ] Validate and compare your scenario against [sample scenarios](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/contoso-migration-overview)
+    * [ ] Validate for [business continuity](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/azure-best-practices/) best practices
+    * [ ] Monitor and continuously improve migration process by defining assessment criteria
+    * [ ] Migrate using promoting, remediating, replicating or staging workloads for multiple environments
+    * [ ] Define and execute business promotion and retrospective [activities](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/migration-considerations/optimize/)
+    * [ ] Create environement of continuous learning and up skilling
   * [ ] **Start Innovation** - Drive business value through innovation activities that unlock new technical skills and expanded business capabilities.
+    * [ ] Perform qualitative and quantitative testing
+    * [ ] **Enhance data discoverability using** [**Azure Data Catalog**](https://docs.microsoft.com/azure/data-catalog)**,** [**Azure Data Share**](https://docs.microsoft.com/azure/data-share) **and** [**Azure Time Series Insights**](https://docs.microsoft.com/azure/time-series-insights/time-series-insights-update-overview) **\[Tools\]**
+    * [ ] Innovate using PaaS \(App service\), Cloud native \(Serverless\) or Isolating point of failure \(Azure front door, traffic manager\)
+    * [ ] Empower adoption by collaboration and LiveOps
+    * [ ] Interact through devices i.e. IOT Hub, Location intelligence etc. e.g. Azure Sphere
+    * [ ] Innovate in [cloud native landscape](https://www.cncf.io/) by experimenting in deployment and clustering e.g. Kubernetes
+    * [ ] [Adopt innovation best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/best-practices/)
+    * [ ] [Adopt innovation proce best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/considerations/)
 * [ ] **Start Operating**
   * [ ] Define Governing body. Align corporate policy to tangible risks, mitigated through policy, process, and cloud-based governance tooling.
+    * [ ] Envision an end state
+    * [ ] Identify business risk, compliance and processes
+    * [ ] Define maturity vectors and governance considerations
+      * [ ] Sensitive data in the cloud
+      * [ ] Mission-critical apps in the cloud
+      * [ ] Cloud cost management
+      * [ ] Multicloud
+      * [ ] Complex/legacy identity management
+      * [ ] Multiple layers of governance
+    * [ ] Define governance principles for
+      * [ ] Cost Management - [Download governance discipline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx)
+      * [ ] Security Baseline - [Download governance discipline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx)
+      * [ ] Resource Consistency - [Download governance discipline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Resource%20Consistency%20Discipline%20Template.docx)
+      * [ ] Identity Baseline - [Download governance discipline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Identity%20Baseline%20Discipline%20Template.docx)
+      * [ ] Deployment Acceleration - [Download governance discipline template](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx)
+    * [ ] Utilise [governance benchmark tool](https://cafbaseline.com) to help you identify gaps in your organization across six key domains
   * [ ] Define management team. Expand IT operations to ensure cloud-based solutions can be operated through secure, cost effective processes using modern, cloud-first operations tools.
+    * [ ] Define Process, tools and purpose for
+      * [ ] Inventory and visibility
+      * [ ] Operational compliance
+      * [ ] Protect and recover
+    * [ ] Define plan and tools for monitoring and alerting
+    * [ ] Create specialisation for platforms or workloads
+    * [ ] Establish an operational fitness review
+    * [ ] Define resiliency checklist for specific Azure services
+    * [ ] Define plan for failure mode analysis for Azure applications
+    * [ ] Create a disaster recovery plan and process
+      * [ ] Informing stakeholders
+      * [ ] Data recovery
+      * [ ] Business continuity
+      * [ ] RPO
+      * [ ] RTO
   * [ ] Define support team. Align people and teams to deliver proper cloud operations and adoption.
+    * [ ] Define RACI matrix
+    * [ ] Create cloud capability matrix
+    * [ ] Build technical skills
+
+Additional tools that you might have to review for a successful cloud adoption
+
+* [Cloud Governance](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/)
+* [Reliability Architecture](https://docs.microsoft.com/azure/architecture/framework/resiliency/overview)
+* [Skill Building](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/suggested-skills)
+* [DevOps Approach](https://docs.microsoft.com/azure/devops/learn/)
+* [Architecture Center](https://docs.microsoft.com/azure/architecture/)
+* [Pricing Calculator](https://azure.microsoft.com/pricing/calculator)
+
+
 
 
 
