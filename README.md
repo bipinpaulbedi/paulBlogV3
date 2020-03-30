@@ -8,6 +8,10 @@ I'm Bipin, a software developer, entrepreneur and open source contributor who's 
 
 \*\*\*\*📬 **Posts**
 
+| 2020 |
+| :--- |
+| [Architects transformation checklist from zero to cloud](2020/untitled.md) |
+
 | 2019 | 2018 |
 | :--- | :--- |
 | [Everything is a reduce](2019/functional-design-patterns-using-rust.md) | [Discrete representation of algorithm computational complexity](2018/asymtotic-notations.md) |
