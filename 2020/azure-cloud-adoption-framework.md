@@ -4,6 +4,8 @@ description: architect's checklist for transforming on-premises to cloud | 2020-
 
 # Simplified azure cloud adoption framework
 
+**TL;DR - Keep the implementation practice simple and consistent**
+
 The [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/) helps customers undertake a simplified cloud adoption journey. The framework contains detailed information about an end-to-end cloud adoption journey and is designed primarily for cloud architects and the cloud strategy teams leading cloud adoption efforts. This blog post primarily focus on step-by-step checklist that can help you complete your journey based on Microsoft azure cloud adoption framework recommended practices.
 
 ![Image Source - Microsoft](../.gitbook/assets/caf-overview.png)
@@ -136,7 +138,7 @@ The [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adop
     * [ ] [Adopt innovation best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/best-practices/)
     * [ ] [Adopt innovation proce best practices](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/innovate/considerations/)
 * [ ] **Start Operating**
-  * [ ] Define Governing body. Align corporate policy to tangible risks, mitigated through policy, process, and cloud-based governance tooling.
+  * [ ] Define governing body. Align corporate policy to tangible risks, mitigated through policy, process, and cloud-based governance tooling.
     * [ ] Envision an end state
     * [ ] Identify business risk, compliance and processes
     * [ ] Define maturity vectors and governance considerations
