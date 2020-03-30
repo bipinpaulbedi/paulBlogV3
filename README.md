@@ -10,7 +10,7 @@ I'm Bipin, a software developer, entrepreneur and open source contributor who's 
 
 | 2020 |
 | :--- |
-| [Architects transformation checklist from zero to cloud](2020/azure-cloud-adoption-framework.md) |
+| [Architect's checklist for transforming zero to cloud](2020/azure-cloud-adoption-framework.md) |
 
 | 2019 | 2018 |
 | :--- | :--- |
