@@ -1,5 +1,5 @@
 ---
-description: deciding what not to do is as important as deciding what to do
+description: deciding what not to do is as important as deciding what to do | 2019-March-27
 ---
 
 # 57 counterproductive software design practices - anti patterns.

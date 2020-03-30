@@ -1,5 +1,5 @@
 ---
-description: a clean approach to modularising software projects
+description: a clean approach to modularising software projects | 2019-November-05
 ---
 
 # Clean architecture in functional programming

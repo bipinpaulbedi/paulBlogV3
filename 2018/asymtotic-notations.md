@@ -1,5 +1,7 @@
 ---
-description: discrete representation of algorithm computational complexity
+description: >-
+  discrete representation of algorithm computational complexity |
+  2018-October-20
 ---
 
 # Asymptotic computational complexity simplified

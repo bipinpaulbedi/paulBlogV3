@@ -1,5 +1,5 @@
 ---
-description: feature engineering for machine learning models
+description: feature engineering for machine learning models | 2018-October-12
 ---
 
 # L1 & L2 model regularizations techniques

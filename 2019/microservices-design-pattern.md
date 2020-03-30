@@ -1,5 +1,5 @@
 ---
-description: architects black book for microservices implementation
+description: architects black book for microservices implementation | 2019-January-28
 ---
 
 # 9 laws of architecting microservices

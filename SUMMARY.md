@@ -2,6 +2,10 @@
 
 * [Thoughts, stories & ideas.](README.md)
 
+## 2020
+
+* [Untitled](2020/untitled.md)
+
 ## 2019
 
 * [Functional design patterns using rust](2019/functional-design-patterns-using-rust.md)

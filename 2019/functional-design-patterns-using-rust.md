@@ -1,5 +1,5 @@
 ---
-description: everything is a reduce
+description: everything is a reduce | 2019-November-07
 ---
 
 # Functional design patterns using rust

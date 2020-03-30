@@ -1,5 +1,5 @@
 ---
-description: concurrent and/or parallel processing model
+description: concurrent and/or parallel processing model | 2019-January-04
 ---
 
 # Phoenix/Elixir - concurrency actor model with 'let it crash' philosophy
