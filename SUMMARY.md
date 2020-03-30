@@ -4,7 +4,7 @@
 
 ## 2020
 
-* [Simplified azure cloud adoption framework](2020/untitled.md)
+* [Simplified azure cloud adoption framework](2020/azure-cloud-adoption-framework.md)
 
 ## 2019
 
