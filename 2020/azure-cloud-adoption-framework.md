@@ -99,6 +99,7 @@ The [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adop
     * [ ] Review incremental rationalisation by power of 10 methodology
     * [ ] Review all 5R's
     * [ ] Inform all stakeholders
+    * [ ] Validate consistency of documentation and implementation
     * [ ] **Perform migration using \[TOOLS\]**
       * [ ] Azure Migrate
       * [ ] Azure Site Recovery
@@ -162,7 +163,7 @@ The [Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adop
     * [ ] Establish an operational fitness review
     * [ ] Define resiliency checklist for specific Azure services
     * [ ] Define plan for failure mode analysis for Azure applications
-    * [ ] Create a disaster recovery plan and process
+    * [ ] Create a disaster recovery plan and process for
       * [ ] Informing stakeholders
       * [ ] Data recovery
       * [ ] Business continuity
