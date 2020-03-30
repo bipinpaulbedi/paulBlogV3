@@ -8,7 +8,7 @@ The Cloud Adoption Framework helps customers undertake a simplified cloud adopti
 
 ![Image Source - Microsoft](../.gitbook/assets/caf-overview.png)
 
-Azure adoption checklist
+#### Azure adoption checklist
 
 * [ ] Start Planning - establishing clear [business outcomes](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/business-outcomes/), a clearly defined [digital estate plan](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/digital-estate/), and well-understood [adoption backlogs](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/migrate/migration-considerations/prerequisites/migration-backlog-review)
   * [ ] Get critical business events e.g. data-center exit
