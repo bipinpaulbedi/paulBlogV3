@@ -4,11 +4,11 @@ description: get rid of hard coding conditions in your code
 
 # Implementing state machine behavior using F\#
 
-State Machine simulation is one of most common practices. It is not a coding-oriented design pattern, but it is system-oriented, often used to model cases for business use. Using F\# and domain driven driven design we can not only define different type to represent state but we can define behavior as function with various state transition rules.
+State Machine simulation is one of the most common practices. It is not a coding-oriented design pattern, but it is system-oriented, often used to model cases for business use. Using F\# and domain driven design, we can not only define a different type to represent the state, but we can define behaviour as function with various state transition rules.
 
-For example given a current state X, a state machine will define what a new state X can change to, and what events can cause state changes to occur. i.e. Current State -&gt; Event -&gt; New State
+For example, given a current state X, a state machine will define what a new state X can change to, and what events can cause state changes to occur. i.e. Current State -&gt; Event -&gt; New State
 
-In our scenario we have various states and transition events of a process in an operating system viz.
+In our scenario, we have various states and transition events of a process in an operating system viz.
 
 ```text
 module Process
@@ -52,7 +52,7 @@ let stateMachine (state, event) =
         -> failwith  "Invalid Transition"
 ```
 
-The above function can provide behavior for transition but it has an issue, it will allow us to raise an event which might not be allowed by state such as ADMIT event when the state is WAITING. This can lead to run time exception "Invalid Transition". Thus a better way to provide implementation for the above code is to replace with following code. First we create two helper function, stateTransition that will event and return the future state and getEventForState that will take the current state and return the possible event it can raise.
+The above function can provide behaviour for transition, but it has an issue, it will allow us to raise an event which might not be permitted by the state such as ADMIT event when the state is WAITING. This can lead to run time exception "Invalid Transition". Thus a better way to provide the implementation for the above code is to replace with following code. First, we create two helper function, stateTransition that will event and return the future state and getEventForState that will take the current state and return the possible event it can raise.
 
 ```text
 let private stateTransition event =
@@ -82,7 +82,7 @@ let private getEventForState state =
         -> [|IOEventCompletion|]
 ```
 
-Now we need a circular reference type that can be used to hold the allowed event record with a identification property and a method function that takes a unit and returns allowed event results with current state details.
+Now we need a circular reference type that can be used to hold the allowed event record with an identification property and a method function that takes a unit and returns allowed event results with current state details.
 
 ```text
 type AllowedEvent = 
@@ -97,7 +97,7 @@ and EventResult
         }
 ```
 
-In the above definition AllowedEvent references EventResult in RaiseEvent and EventResult references AllowedEvent in AllowedEvents. Please give attention that both functions stateTransition and getEventForState were private to module.
+In the above definition, AllowedEvent references EventResult in RaiseEvent and EventResult references AllowedEvent in AllowedEvents. Please give attention that both functions stateTransition and getEventForState were private to module.
 
 Let us implement final state machine function
 
@@ -126,12 +126,12 @@ To complete the the above implementation we would provide a method to be accesse
 let init() = stateMachine New
 ```
 
-To test the implementation we can now proceed as
+To test the implementation, we can now proceed as
 
 ```text
 let result = init()
 let result1 = result.AllowedEvents.[0].raiseEvent()
 ```
 
-This methodology ensures that every time we raise an events it is a valid event.
+This methodology ensures that every time we raise an event, it is a valid event.
 
