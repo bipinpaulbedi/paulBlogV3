@@ -82,7 +82,7 @@ let private getEventForState state =
         -> [|IOEventCompletion|]
 ```
 
-Now we need a circular reference type that can be used to store the allowed event record with an identification property and a method function that takes a unit as input to returns future allowed events with current state details.
+Now we need a circular reference type that can be used to store the allowed event record with an identification property and a method function that takes a unit as an input to returns future allowed events with current state details.
 
 ```text
 type AllowedEvent = 
