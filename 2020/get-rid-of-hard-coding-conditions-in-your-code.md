@@ -4,9 +4,9 @@ description: get rid of hard coding conditions in your code | 2020-April-04
 
 # Implementing state machine behaviour using F\#
 
-State Machine simulation is one of the most common practices. It is not a coding-oriented design pattern, but it is system-oriented, often used to model cases for business use. Using F\# and domain driven design, we can not only define different types to represent the state, but we can also define behaviour as functions for various state transition rules.
+State Machine simulation is one of the most common practices. It is not a coding-oriented design pattern, but it is system-oriented, often used to model cases for the business use. Using F\# and domain driven design, we can not only define different types to represent the state, but we can also define behaviour as functions for various state transition rules.
 
-For example, given a current state X, a state machine will define what a new state X can change to, and what events can cause state changes to occur. i.e. Current State -&gt; Event -&gt; New State
+For example, given a current state X, a state machine will define what new state X can change to, and what events can cause the state changes to occur. i.e. Current State -&gt; Event -&gt; New State
 
 In our scenario, we have various states and transition events of a process in an operating system viz.
 
@@ -52,7 +52,7 @@ let stateMachine (state, event) =
         -> failwith  "Invalid Transition"
 ```
 
-The above function can provide the behaviour for transition, but it has an issue, it will allow us to raise an event which might not be permitted by the state such as ADMIT event when the current state is WAITING. This can lead to run time exception "Invalid Transition". Thus a better way to provide the implementation for the above code is to replace with the following code. First, we create two helper function, stateTransition that will take event as input to return the future state and getEventForState that will take the current state as input to return the collection of possible events it can raise.
+The above function can provide the behaviour for transition, but it has an issue, it will allow us to raise an event which might not be permitted by the state such as ADMIT event when the current state is WAITING. This can lead to a run time exception "Invalid Transition". Thus a better way to provide the implementation for the above code is to replace with the following code. First, we create two helper function, stateTransition that will take event as an input to return the future state and getEventForState that will take the current state as an input to return the collection of possible events it can raise.
 
 ```text
 let private stateTransition event =
@@ -82,7 +82,7 @@ let private getEventForState state =
         -> [|IOEventCompletion|]
 ```
 
-Now we need a circular reference type that can be used to hold the allowed event record with an identification property and a method function that takes a unit as input to returns future allowed events with current state details.
+Now we need a circular reference type that can be used to store the allowed event record with an identification property and a method function that takes a unit as input to returns future allowed events with current state details.
 
 ```text
 type AllowedEvent = 
@@ -118,7 +118,7 @@ let rec stateMachine event =
     }
 ```
 
-This is recursive function as it is self referencing and returns EventResult type. The stateMachine function takes the event as input to calculate newState and newEvent using helper methods and then creates EventResult. The AllowedEvent array create a special map of functions, to be called at runtime for transitioning between states from outside the module. By implementing above code we can utilise the result from each RaiseEvent to traverse further.
+This is recursive function as it is self referencing and it returns EventResult type. The stateMachine function takes the event as an input to calculate newState and newEvent using helper methods and then creates EventResult. The AllowedEvent array create a special map of functions, to be called at runtime for transitioning between states from outside the module. By implementing above code we can utilise the result from each RaiseEvent to traverse further.
 
 To complete the the above implementation we would provide a method to be accessed publicly and it will give us initial result of the state machine.
 
