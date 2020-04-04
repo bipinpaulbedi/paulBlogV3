@@ -2,7 +2,7 @@
 description: get rid of hard coding conditions in your code
 ---
 
-# Implementing state machine behavior using F\#
+# Implementing state machine behaviour using F\#
 
 State Machine simulation is one of the most common practices. It is not a coding-oriented design pattern, but it is system-oriented, often used to model cases for business use. Using F\# and domain driven design, we can not only define a different type to represent the state, but we can define behaviour as function with various state transition rules.
 

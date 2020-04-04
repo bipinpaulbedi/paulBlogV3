@@ -4,7 +4,7 @@
 
 ## 2020
 
-* [Implementing state machine behavior using F\#](2020/get-rid-of-hard-coding-conditions-in-your-code.md)
+* [Implementing state machine behaviour using F\#](2020/get-rid-of-hard-coding-conditions-in-your-code.md)
 * [Simplified azure cloud adoption framework](2020/azure-cloud-adoption-framework.md)
 
 ## 2019
