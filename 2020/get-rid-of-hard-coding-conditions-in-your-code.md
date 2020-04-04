@@ -1,5 +1,5 @@
 ---
-description: get rid of hard coding conditions in your code | 2020-04-04
+description: get rid of hard coding conditions in your code | 2020-April-04
 ---
 
 # Implementing state machine behaviour using F\#
