@@ -10,7 +10,7 @@ I'm Bipin, a software developer, entrepreneur and open source contributor who's 
 
 | 2020 |
 | :--- |
-| [Intelligence is the ability to adapt to change](2020/intelligence-is-the-ability-to-adapt-to-change..md) |
+| [Intelligence is the ability to adapt to change](2020/intelligence-is-the-ability-to-adapt-to-change.md) |
 | [Get rid of hard coding conditions in your code](2020/get-rid-of-hard-coding-conditions-in-your-code.md) |
 | [Architect's checklist for transforming on-premises to cloud](2020/azure-cloud-adoption-framework.md) |
 
