@@ -46,12 +46,12 @@ Objectives
 * [ ] Allocate budget
 * [ ] Strategise the execution model by defining current and future state
 * [ ] Align work towards the flow of value
-* [ ] Create a measure framework with transparent tracking
+* [ ] Create a measurement framework with transparent tracking system
 * [ ] Revisit the backlog for continuous improvement and value delivery
 
 ## 7. What is the value of OKRs in scaled agile?
 
-The principle of "what gets measured, improves" is the key foundational element in any agile implementation. The Objects and Key results define the goals and measurement criteria for continuous alignment towards value delivery.
+The principle of "what gets measured, improves" is the key foundational element in any agile implementation. The Objectives and Key results define the goals and measurement criteria for continuous alignment towards value delivery.
 
 They help us in creating value and reaching goals rather than focusing on activities and tasks.
 
@@ -77,7 +77,7 @@ They help us in creating value and reaching goals rather than focusing on activi
 
 ## 10. How to implement SAFe?
 
-The SAFe Implementation Roadmap consists of an overview graphic and a 12-article series that describes a strategy and an ordered set of activities that have proven to be effective in successfully implementing SAFe. Please follow guideline described in [scaled agile framework](https://www.scaledagileframework.com/implementation-roadmap/)
+The SAFe Implementation Roadmap consists of an overview graphic and a 12-article series that describes a strategy and an ordered set of activities that have proven to be effective in successfully implementing SAFe. Please follow guideline described at [scaled agile framework](https://www.scaledagileframework.com/implementation-roadmap/)
 
 ## 11. How would you compare SAFe with other methodologies?
 
