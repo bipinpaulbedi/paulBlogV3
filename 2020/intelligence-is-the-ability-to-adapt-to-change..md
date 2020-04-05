@@ -1,6 +1,6 @@
 ---
 description: >-
-  Intelligence is the ability to adapt to change - Stephen Hawking |
+  intelligence is the ability to adapt to change - Stephen Hawking |
   2020-April-05
 ---
 
