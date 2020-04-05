@@ -4,6 +4,7 @@
 
 ## 2020
 
+* [12 steps to scaled agile - Outside the foundational whitepaper](2020/intelligence-is-the-ability-to-adapt-to-change..md)
 * [Implementing state machine behaviour using F\#](2020/get-rid-of-hard-coding-conditions-in-your-code.md)
 * [Simplified azure cloud adoption framework](2020/azure-cloud-adoption-framework.md)
 
