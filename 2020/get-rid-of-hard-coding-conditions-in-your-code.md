@@ -112,7 +112,7 @@ let rec stateMachine event =
             |> Array.map (fun e ->
                 let f() = stateMachine e
                 {
-                    EventInfor e
+                    EventInfo = e
                     RaiseEvent = f
                 })
     }
