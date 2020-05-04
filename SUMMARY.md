@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Thoughts, stories & ideas.](README.md)
+* [The notion and determined realisations.](README.md)
 
 ## 2020
 
