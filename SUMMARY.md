@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Epitome](README.md)
+* [Epitome of thoughts](README.md)
 
 ## 2020
 
