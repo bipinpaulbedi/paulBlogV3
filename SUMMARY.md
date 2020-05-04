@@ -1,6 +1,6 @@
 # Table of contents
 
-* [The notion and determined realisations.](README.md)
+* [Scribbling notions](README.md)
 
 ## 2020
 
