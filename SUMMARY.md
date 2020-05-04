@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Scribbling notions](README.md)
+* [Epitome](README.md)
 
 ## 2020
 
