@@ -22,6 +22,10 @@ I'm Bipin, a software developer, entrepreneur and open source contributor who's 
 | [Architects black book for microservices implementation](2019/microservices-design-pattern.md) |  |
 | [Concurrent and/or parallel processing model](2019/elixir-concurrency-models.md) |  |
 
+#### 🧠 Mental models, published elsewhere by myself
+
+[The First Principle Thinking](https://brainfuel.substack.com/p/the-first-principle-thinking)
+
 \*\*\*\*😲 **Talks**
 
 _Wednesday, 10 May 2017_ \| [Angular - Web/Service Workers](https://www.meetup.com/en-AU/ng-sydney/events/239565060/) \| [Code](https://github.com/bipinpaulbedi/angular-meetup) \| [Slides](https://www.slideshare.net/BipinPaulBedi/implementing-web-workers-service-workers-in-angular)
