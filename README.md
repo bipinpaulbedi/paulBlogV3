@@ -1,5 +1,5 @@
 ---
-description: BIPIN PAUL BEDI
+description: '{ BIPIN PAUL BEDI }'
 ---
 
 # Epitome of thoughts
